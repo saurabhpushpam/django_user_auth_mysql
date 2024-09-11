@@ -29,6 +29,8 @@ urlpatterns = [
     path('api/auth/register', RegisterView.as_view(), name= 'auth_register'),
     path('api/auth/login', LoginView.as_view(), name= 'auth_register'),
 
+    path('api/auth/logout/', LogoutView.as_view(), name='logout'),
+
     path('api/dashboard', DashboardView.as_view(), name= 'dashboard'),
 
 
