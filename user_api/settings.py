@@ -103,7 +103,7 @@ DATABASES = {
         'NAME': 'django_user',  # Name of your MySQL database
         'USER': 'root',  # Your MySQL username
         'PASSWORD': 'Saurabh@9911',  # Your MySQL password
-        'HOST': 'localhost',  # Host (for local development)
+        'HOST': '127.0.0.1',  # Host (for local development) ---> localhost
         'PORT': '3306',  # MySQL port (3306 is the default)
     }
 }
